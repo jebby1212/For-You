@@ -84,8 +84,12 @@
           <p>I’m so happy you're mine 🥰</p>
         </div>
       `;
+      const song = document.getElementById("song");
+      if (song) {
+        song.volume = 0.7;
+        song.play();
     }
-
+    }
     function moveNo() {
       const noButton = document.getElementById("no");
       const x = Math.random() * (window.innerWidth - 100);
@@ -97,6 +101,7 @@
 
 </body>
 </html>
+
 
 
 
